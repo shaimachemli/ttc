@@ -1,0 +1,136 @@
+body{
+    
+    padding: 0%;
+    margin: 0%;
+    
+}
+.footer{
+    padding: 0%;
+    margin:0.5%
+    
+    
+}
+nav{
+    background-color:beige;
+    color: black;
+    padding: 20px 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.recherche{
+    display: flex;
+    align-items: center;
+    background-color:bisque;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#inputrech{
+    border: none;
+    background-color: transparent; /*pour prendre le meme de son div*/
+}
+#inputrech::placeholder{
+    color:brown;
+}
+#pxchoc{
+    font-size: 20px;
+    color: brown;
+    cursor:pointer;
+    font-family:Dancing Script medium;
+}
+.navmenu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navmenu:nth-child(4) .menuele:hover{
+    font-size: 20px;
+   
+}
+.menuele{
+    margin-right:40px;
+    margin-left: 40px;
+    cursor: pointer;
+    color:brown
+}
+.cardbande{
+    display: flex;
+    width: 500vw;
+
+}
+.card{
+    display: flex;
+    width: 100vw;
+    align-items:center ;
+    justify-content: center;
+    position: relative;
+}
+.cardcont{
+    width: 450px;
+    height: 450px;
+    border-radius: 40%;
+    position:absolute;
+    
+    background-color: bisque;
+
+}
+.cardimg{
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+}
+.cardtitle{
+    position: absolute;
+    top:10%;
+    right: 15%;
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+    z-index: 1;
+}
+.cardpx{
+    position: absolute;
+    top:10%;
+    left: 20%;
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+    border:1px solid brown;
+    z-index: 1;
+}
+
+.cardbottom{
+    position: absolute;
+    top:50%;
+    right: 15%;
+    font-size: 20px;
+    cursor: pointer;
+    color: brown;
+    border:1px solid brown;
+    z-index: 1;
+}
+.cardbottom:hover{
+    background-color: bisque;
+    color: black;
+}
+.card:nth-child(1) .cardcont{
+    background-color: rgb(196, 235, 189);
+}
+.card:nth-child(2) .cardcont{
+    background-color: rgb(241, 171, 208);
+}
+.card:nth-child(3) .cardcont{
+    background-color: rgb(189, 223, 236);
+}
+.card:nth-child(4) .cardcont{
+    background-color: rgb(230, 178, 137);
+}
+.botton{
+   
+}
+.boutons{
+
+}

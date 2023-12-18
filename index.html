@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Mr+De+Haviland&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <title>Bijoux artisanaux tunisiennes</title>
+
+    <style>
+        nav{
+            background-color:beige;
+            color: black;
+            padding: 20px 50px;
+        }
+        
+    </style>
+
+</head>
+<body style="font-family:Dancing Script">
+<header>
+   <nav>
+        <div class="navbar">
+            <div class="element">
+                 <img src="images\khomsa.webp" alt="" width="80" height="80">
+            </div>
+            <div class="element">
+                <div class="recherche">
+                    <input id="inputrech" type="text" name="recherche" placeholder="rechercher" >
+                    <img src="images/rechercher.jpg" alt="Elkhomsa" width="20" height="20" >
+                </div>
+                
+            </div>
+            <div id="pxchoc">Prix choc!</div>
+        </div>
+        <div class="navmenu">
+            <h3 class="menuele">HOME</h3>
+            <h3 class="menuele">CATEGORIE</h3>
+            <h3 class="menuele">CONTACT</h3>
+            <h3 onclick="mon_compte()" class="menuele" >MON COMPTE</h3>
+        </div>
+   </nav>
+</header>
+   <div class="cards">
+        <div class="cardbande">
+            <article class="card">         
+                <img src="images\img13.jpg" alt="" class="cardimg">
+                <div class="cardcont"></div>
+                <h1 class="cardtitle">Colier Corail</h1>
+                <h2 class="cardpx">150dt</h2>
+                <button class="cardbottom">Ajouter au panier</button>
+            </article>
+            <article class="card">
+                <img src="images\img9.jpg" alt="" class="cardimg">
+                <div class="cardcont"></div>
+                <h1 class="cardtitle">Colier Ambre</h1>
+                <h2 class="cardpx">100dt</h2>
+                <button class="cardbottom">Ajouter au panier</button>
+            </article>
+            <article class="card">
+                <img src="images\img10.jpg" alt="" class="cardimg">
+                <div class="cardcont"></div>
+                <h1 class="cardtitle">Colier Zde9</h1>
+                <h2 class="cardpx">98dt</h2>
+                <button class="cardbottom">Ajouter au panier</button>
+            </article>
+            <article class="card">
+                <img src="images\img11.jpg" alt="" class="cardimg">
+                <div class="cardcont"></div>
+                <h1 class="cardtitle">Colier Corail khomsa</h1>
+                <h2 class="cardpx">150dt</h2>
+                <button class="cardbottom">Ajouter au panier</button>
+            </article>
+        </div>
+        
+   </div> 
+   <marquee scrollamount="10" direction="right" behavior="alternate" bgcolor="transparent" loop="10" width="1000" height="100">Promotion jusqu'au 30 décembre 2023</marquee>
+   <center><footer class="footer">Copyright Imen Ben Dhiab 2023</footer></center>
+   <script src="script.js"></script>
+</body>
+</html>
