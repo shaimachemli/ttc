@@ -48,43 +48,41 @@
                 <div class="cardcont"></div>
                 <h1 class="cardtitle">Colier Corail</h1>
                 <h2 class="cardpx">150dt</h2>
-                <button class="cardbottom" onclick="ajouterLigne()" >Ajouter au panier</button>
+                <button class="cardbottom" onclick="ajouterLigne(this)">Ajouter au panier</button>
             </article>
             <article class="card">
                 <img src="images\img9.jpg" alt="" class="cardimg">
                 <div class="cardcont"></div>
                 <h1 class="cardtitle">Colier Ambre</h1>
                 <h2 class="cardpx">100dt</h2>
-                <button class="cardbottom">Ajouter au panier</button>
+                <button class="cardbottom" onclick="ajouterLigne(this)">Ajouter au panier</button>
             </article>
             <article class="card">
                 <img src="images\img10.jpg" alt="" class="cardimg">
                 <div class="cardcont"></div>
                 <h1 class="cardtitle">Colier Zde9</h1>
                 <h2 class="cardpx">98dt</h2>
-                <button class="cardbottom">Ajouter au panier</button>
+                <button class="cardbottom" onclick="ajouterLigne(this)">Ajouter au panier</button>
             </article>
             <article class="card">
                 <img src="images\img11.jpg" alt="" class="cardimg">
                 <div class="cardcont"></div>
                 <h1 class="cardtitle">Colier Corail khomsa</h1>
                 <h2 class="cardpx">150dt</h2>
-                <button class="cardbottom" >Ajouter au panier</button>
+                <button class="cardbottom" onclick="ajouterLigne(this)">Ajouter au panier</button>
             </article>
         </div>
         
    </div> 
-   <button class="voirpanier" onclick="panier()">Voir panier</button>
+   <button class="voirpanier"> Voir panier </button> 
+
    <!--le tableau de recuperation des articles ajoutés dans le panier il est invisible--> 
    <table id="myTable">
     <tr>
       <th>article</th>
       <th>px</th>
     </tr>
-    <tr>
-      <td> Cell 1</td>
-      <td> Cell 2</td>
-    </tr>
+    
   </table>
    <marquee scrollamount="10" direction="right" behavior="alternate" bgcolor="transparent" loop="10" width="1000" height="100">Promotion jusqu'au 30 décembre 2023</marquee>
    <center><footer class="footer">Copyright Imen Ben Dhiab 2023</footer></center>
